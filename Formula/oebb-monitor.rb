@@ -1,18 +1,18 @@
 class OebbMonitor < Formula
   desc "Terminal UI for live ÖBB departure and arrival data"
   homepage "https://github.com/philroli/oebb-monitor"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/PhilRoli/oebb-monitor-cli/releases/download/v0.2.2/oebb-monitor-aarch64-apple-darwin.tar.gz"
-      sha256 "5e9bbe03c3e816400525475e0ecedfdbde0b5feb7aeede8de16d1aead1921b39"
+      url "https://github.com/PhilRoli/oebb-monitor-cli/releases/download/v0.2.3/oebb-monitor-aarch64-apple-darwin.tar.gz"
+      sha256 "816209829e3af971d23cb482f114a3908bf1a93a4168e540f223b054f2ae0aa8"
     end
 
     on_intel do
-      url "https://github.com/PhilRoli/oebb-monitor-cli/releases/download/v0.2.2/oebb-monitor-x86_64-apple-darwin.tar.gz"
-      sha256 "a202380547844cee7e2749d57316f85f4fc13a11a549e0b8f6e0898d579941be"
+      url "https://github.com/PhilRoli/oebb-monitor-cli/releases/download/v0.2.3/oebb-monitor-x86_64-apple-darwin.tar.gz"
+      sha256 "83eb5fc499efea81bed4636c11a7a84ca6f5c4c04feeafaa468982e9c6b8a2a6"
     end
   end
 
