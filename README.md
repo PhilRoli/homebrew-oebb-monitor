@@ -1,12 +1,27 @@
-# homebrew-oebb-monitor
+# homebrew-tap
 
-Homebrew tap for [oebb-monitor](https://github.com/PhilRoli/oebb-monitor-cli) — a terminal UI for live ÖBB departure and arrival data.
+Homebrew tap for Philipp Rolinek's personal command-line and macOS tools.
 
 ## Install
 
 ```bash
-brew tap philroli/oebb-monitor
+brew tap philroli/tap
+```
+
+### oebb-monitor
+
+Terminal UI for live ÖBB departure and arrival data.
+
+```bash
 brew install oebb-monitor
+```
+
+### TrainTracker
+
+Menu bar app for tracking Austrian trains.
+
+```bash
+brew install --cask traintracker
 ```
 
 ## Update
@@ -14,4 +29,5 @@ brew install oebb-monitor
 ```bash
 brew update
 brew upgrade oebb-monitor
+brew upgrade --cask traintracker
 ```
